@@ -1,0 +1,6 @@
+{
+	"graduates" : [
+		{"name":"test1", "image":"img1", "description":"desc1", "question1":"1q1", "question2":"1q2"},	
+		{"name":"test2", "image":"img2", "description":"desc2", "question2":"2q2", "question2":"2q2"}
+	]
+}
