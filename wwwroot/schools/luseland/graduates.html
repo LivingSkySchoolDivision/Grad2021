@@ -2,7 +2,10 @@
 <html lang="en">
    <head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>   
+         
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
@@ -64,7 +67,7 @@
             <div class="container">
                <h1><script>school_short();</script> Graduates</h1>
 
-               <p class="lead text-muted"><script type="text/javascript">document.write(general_grad_message);</script></p>
+               <p class="lead text-muted"><script type="text/javascript">document.write(general_school_grad_message);</script></p>
                <p>
                   <a href="index.html" class="btn btn-primary my-2">Back <script type="text/javascript">school_short();</script>'s main page.</a>
                   <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
@@ -84,6 +87,7 @@
             <script type="text/javascript">document.write(footer_data);</script>
          </div>
       </footer>
+
       <script> 
           //Pull Data from data.JSON into cards, 
          $.getJSON('data.JSON', function(data) {
@@ -97,10 +101,33 @@
                card +=  '             <p class="card-text">'+data.graduates[graduate].name+'</p>';
                card +=  '             <div class="d-flex justify-content-between align-items-center">';
                card +=  '               <div class="btn-group">';
-               card +=  '                 <button type="button" class="btn btn-sm btn-outline-secondary">View</button>';
-               card +=  '                 <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>';
+               card +=  '                 <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#'+data.graduates[graduate].name+'" >View Student\'s Message</button>';
+
+                  /* Modal */
+                  card +=  '<div class="modal fade" id="'+data.graduates[graduate].name+'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">';
+                  card +=  '<div class="modal-dialog" role="document">';
+                  card +=  '       <div class="modal-content">';
+                  card +=  '         <div class="modal-header">';
+                  card +=  '           <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>';
+                  card +=  '           <button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+                  card +=  '             <span aria-hidden="true">&times;</span>';
+                  card +=  '           </button>';
+                  card +=  '         </div>';
+                  card +=  '         <div class="modal-body">';
+                  card +=  '          '+data.graduates[graduate].message;
+                  card +=  '         </div>';
+                  card +=  '         <div class="modal-footer">';
+                  card +=  '           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
+                  //card +=  '           <button type="button" class="btn btn-primary">Save changes</button>';
+                  card +=  '         </div>';
+                  card +=  '       </div>';
+                  card +=  '     </div>';
+                  card +=  '   </div>';
+                  /*end Modal*/
+
+
                card +=  '               </div>';
-               card +=  '               <small class="text-muted">9 mins</small>';
+               //card +=  '               <small class="text-muted">9 mins</small>';
                card +=  '             </div>';
                card +=  '           </div>';
                card +=  '         </div>';

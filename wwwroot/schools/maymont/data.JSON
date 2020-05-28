@@ -1,11 +1,11 @@
 {
 	"graduates" : [
-		{"name":"test1", "image":"img1", "description":"desc1", "question1":"1q1", "question2":"1q2"},	
-		{"name":"test2", "image":"img2", "description":"desc2", "question1":"2q1", "question2":"2q2"},	
-		{"name":"test3", "image":"img3", "description":"desc3", "question1":"3q1", "question2":"3q2"},	
-		{"name":"test4", "image":"img4", "description":"desc4", "question1":"4q1", "question2":"4q2"},	
-		{"name":"test5", "image":"img5", "description":"desc5", "question1":"5q1", "question2":"5q2"},	
-		{"name":"test6", "image":"img6", "description":"desc6", "question1":"6q1", "question2":"6q2"},	
-		{"name":"test7", "image":"img7", "description":"desc7", "question1":"7q1", "question2":"7q2"}	
+		{"name":"test1", "image":"img1", "message":"test 1's Grad Message" ,"description":"desc1", "question1":"1q1", "question2":"1q2"},	
+		{"name":"test2", "image":"img2", "message":"test 2's Grad Message", "description":"desc2", "question1":"2q1", "question2":"2q2"},	
+		{"name":"test3", "image":"img3", "message":"test 3's Grad Message", "description":"desc3", "question1":"3q1", "question2":"3q2"},	
+		{"name":"test4", "image":"img4", "message":"test 4's Grad Message", "description":"desc4", "question1":"4q1", "question2":"4q2"},	
+		{"name":"test5", "image":"img5", "message":"test 5's Grad Message", "description":"desc5", "question1":"5q1", "question2":"5q2"},	
+		{"name":"test6", "image":"img6", "message":"test 6's Grad Message", "description":"desc6", "question1":"6q1", "question2":"6q2"},	
+		{"name":"test7", "image":"img7", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"}	
 	]
 }
