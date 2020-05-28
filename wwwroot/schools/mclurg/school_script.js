@@ -5,6 +5,13 @@
 // School name, as you would like it displayed
 var school_name = "McLurg High School";
 
+var school_short = function(){
+	  if ( typeof school_name_short !== 'undefined') {
+         document.write(school_name_short);
+      }else{
+         document.write(school_name);
+      }
+};
 
 var footer_data = ' <p class="float-right"><a href="#">Back to top</a></p>';
     footer_data += '<p>McLurg High School</p>';

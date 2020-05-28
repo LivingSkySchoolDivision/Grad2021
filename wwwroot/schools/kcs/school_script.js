@@ -6,6 +6,13 @@
 var school_name = "Kerrobert Composite School";
 var school_name_short  = "KCS";
 
+var school_short = function(){
+      if ( typeof school_name_short !== 'undefined') {
+         document.write(school_name_short);
+      }else{
+         document.write(school_name);
+      }
+};
 
 var footer_data = ' <p class="float-right"><a href="#">Back to top</a></p>';
     footer_data += '<p>Kerrobert Composite School</p>';
