@@ -16,6 +16,7 @@ var school_short = function(){
 
 
 var footer_data = ' <p class="float-right"><a href="#">Back to top</a></p>';
+    footer_data += '<p>North Battleford Comprehensive High School</p>';
     footer_data += '<p>"FROM POSSIBILITY TO ACTUALITY"</p>';
     footer_data += '<br>';
     footer_data += '<address>';
