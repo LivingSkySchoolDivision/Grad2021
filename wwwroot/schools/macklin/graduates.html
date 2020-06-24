@@ -97,7 +97,8 @@
               //console.log('3');
                var card =  '       <div class="col-md-4">';
                card +=  '         <div class="card mb-4 shadow-sm">';
-               card +=  '           <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>';
+               //card +=  '           <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>';
+               card +=  '           <img src="./img/graduates/'+data.graduates[graduate].image+'" class="bd-placeholder-img card-img-top" width="100%">';
                card +=  '           <div class="card-body">';
                card +=  '             <p class="card-text">'+data.graduates[graduate].name+'</p>';
                card +=  '             <div class="d-flex justify-content-between align-items-center">';

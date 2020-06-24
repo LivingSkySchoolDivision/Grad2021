@@ -1,11 +1,26 @@
 {
 	"graduates" : [
-		{"name":"test1", "image":"img1", "message":"test 1's Grad Message" ,"description":"desc1", "question1":"1q1", "question2":"1q2"},	
-		{"name":"test2", "image":"img2", "message":"test 2's Grad Message", "description":"desc2", "question1":"2q1", "question2":"2q2"},	
-		{"name":"test3", "image":"img3", "message":"test 3's Grad Message", "description":"desc3", "question1":"3q1", "question2":"3q2"},	
-		{"name":"test4", "image":"img4", "message":"test 4's Grad Message", "description":"desc4", "question1":"4q1", "question2":"4q2"},	
-		{"name":"test5", "image":"img5", "message":"test 5's Grad Message", "description":"desc5", "question1":"5q1", "question2":"5q2"},	
-		{"name":"test6", "image":"img6", "message":"test 6's Grad Message", "description":"desc6", "question1":"6q1", "question2":"6q2"},	
-		{"name":"test7", "image":"img7", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"}	
+		{"name":"Aidan Knox", "image":"Aidan.jpg", "StudentID":"117490267", "message":"test 1's Grad Message" ,"description":"desc1", "question1":"1q1", "question2":"1q2"},	
+		{"name":"Allison Stang", "image":"Allison.jpg", "StudentID":"117490374", "message":"test 2's Grad Message", "description":"desc2", "question1":"2q1", "question2":"2q2"},	
+		{"name":"Austin Tracksell", "image":"Austin.jpg", "StudentID":"117490457", "message":"test 3's Grad Message", "description":"desc3", "question1":"3q1", "question2":"3q2"},	
+		{"name":"Carson Gartner", "image":"Carson.jpg", "StudentID":"117490226", "message":"test 4's Grad Message", "description":"desc4", "question1":"4q1", "question2":"4q2"},	
+		{"name":"Cassidy Sunduk", "image":"Cassidy.jpg", "StudentID":"117490440", "message":"test 5's Grad Message", "description":"desc5", "question1":"5q1", "question2":"5q2"},	
+		{"name":"Cody Gartner", "image":"Cody.jpg", "StudentID":"117490234", "message":"test 6's Grad Message", "description":"desc6", "question1":"6q1", "question2":"6q2"},	
+		{"name":"Dani McDonald", "image":"Dani.jpg", "StudentID":"117490325", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Davis Golden", "image":"Davis.jpg", "StudentID":"117490242", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Devyn Steinhubel", "image":"Devyn.jpg", "StudentID":"117490432", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Dyson Erker", "image":"Dyson.jpg", "StudentID":"117490200", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Emma King", "image":"Emma.jpg", "StudentID":"117490259", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Faith Stang", "image":"Faith.jpg", "StudentID":"117490390", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Jocelyn Kohlman", "image":"Jocelyn.jpg", "StudentID":"117490283", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Johnny Gym", "image":"Johnny.jpg", "StudentID":"600005306", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Kodi Stang", "image":"Kodi.jpg", "StudentID":"118032308", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Kyler Weinkauf", "image":"Kyler.jpg", "StudentID":"600007402", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Nate Fraess", "image":"Nate.jpg", "StudentID":"117490218", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Reanne Stang", "image":"Reanne.jpg", "StudentID":"117490416", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Riley Kohlman", "image":"Riley.jpg", "StudentID":"117490291", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Taya Stang", "image":"Taya.jpg", "StudentID":"117490424", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"},	
+		{"name":"Tyrel Warkentin", "image":"Tyrel.jpg", "StudentID":"117490465", "message":"test 7's Grad Message", "description":"desc7", "question1":"7q1", "question2":"7q2"}			
+		
 	]
 }
