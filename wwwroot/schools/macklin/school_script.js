@@ -14,7 +14,7 @@ var school_short = function(){
 };
 
 var footer_data = ' <p class="float-right"><a href="#">Back to top</a></p>';
-    footer_data += '<p>Macklin Central School</p>';
+    footer_data += '<p>Macklin School</p>';
     footer_data += '<br>';
     footer_data += '<address>';
     footer_data += '  Bag #1, 5001 Herald Street, </br>';
