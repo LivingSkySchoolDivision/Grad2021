@@ -1,4 +1,4 @@
-FROM nginx:Use newer NGINX container
+FROM nginx:1.21.0-alpine
 COPY ./wwwroot /wwwroot
 COPY ./nginx.conf /etc/nginx/nginx.conf
 RUN chown -R nginx:nginx /var/cache/nginx && \
