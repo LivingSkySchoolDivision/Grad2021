@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        REPO = "utilitywebsites/grad2020"
+        REPO = "utilitywebsites/grad2021"
         PRIVATE_REPO = "${PRIVATE_DOCKER_REGISTRY}/${REPO}"
         TAG = "${BUILD_TIMESTAMP}"
     }
@@ -9,7 +9,7 @@ pipeline {
         stage('Git clone') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/LivingSkySchoolDivision/Grad2020.git'
+                    url: 'https://github.com/LivingSkySchoolDivision/Grad2021.git'
             }
         }
         stage('Docker build') {
